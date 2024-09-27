@@ -1,0 +1,156 @@
+/* Ensure body takes full viewport height */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: flex-start; /* Align to top */
+    background-color: black; /* Black background */
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* Home page styling */
+.home-page {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; /* Center items horizontally */
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 20px;
+    color: #FF2400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+/* Styling for headings */
+h1, h2, h3 {
+    color: white; 
+}
+
+/* List styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FF2400;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Iframe styling */
+iframe {
+    margin: 20px 0;
+    border-radius: 10px;
+    border: 2px solid #FF2400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Responsive adjustments using media queries */
+@media (max-width: 768px) {
+    .splash-screen {
+        font-size: 12vw; /* Larger font on smaller screens like tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .splash-screen {
+        font-size: 15vw; /* Even larger font on mobile devices */
+    }
+}
+
+.map {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+   
+}
+
+.services {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    
+}
+
+footer {
+    background-color: black; /* Footer background color */
+    padding: 20px 0; /* Add some padding */
+    color: #FF69B4; /* Footer text color */
+    text-align: center; /* Center all text */
+}
+
+.social-media {
+    display: flex;
+    justify-content: center; /* Center social media icons */
+    gap: 20px; /* Space between icons */
+    margin-bottom: 10px; /* Space between icons and footer text */
+}
+
+.social-media a img {
+    width: 40px; /* Set icon size */
+    height: 40px;
+    transition: filter 0.3s; /* Smooth transition for hover effect */
+    filter: grayscale(100%); /* Initially set icons to grayscale */
+}
+
+.social-media a:hover img {
+    filter: none; /* Remove grayscale on hover */
+    background-color: #FF69B4; /* Set background color */
+}
+
+
+.phone-number {
+    color: #FF69B4; /* Phone number color */
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.copyright {
+    color: white; /* Copyright color */
+    margin-top: 5px; /* Space above copyright text */
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.footer-container {
+    max-width: 1200px; /* or any desired width */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add some padding */
+    background-color: #FF69B4;
+}
+
+.p1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FF2400;
+}
+
+.P2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.p3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FF2400;
+    font-weight: bolder;
+}
+
+.hr {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.b {
+    border-radius: 20px;
+}
